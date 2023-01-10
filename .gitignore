@@ -108,3 +108,7 @@ dist
 
 # package-lock
 package-lock.json
+
+# Private challenge
+src/stabilisateur
+src/refroidissement
