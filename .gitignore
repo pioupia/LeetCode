@@ -110,5 +110,4 @@ dist
 package-lock.json
 
 # Private challenge
-src/stabilisateur
-src/refroidissement
+src/Prologin/
