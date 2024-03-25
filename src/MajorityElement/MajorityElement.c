@@ -16,8 +16,9 @@ int majorityElement(int* nums, int numsSize) {
         k = 1;
         for (int j = i + 1; j < numsSize; j++)
         {
-            if (nums[j] == nums[i])
-                k++;
+            if (nums[j] != nums[i])
+                continue;
+            k++;
             nums[j] = default_number;
         }
         if (k >= min)
